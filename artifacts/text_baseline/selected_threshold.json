@@ -1,0 +1,5 @@
+{
+  "threshold": 0.4549999999999999,
+  "selected_on": "training_validation",
+  "test_split": "official_test"
+}

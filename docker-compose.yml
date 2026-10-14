@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      RAGGUARD_MODEL_PATH: artifacts/tuning/text_baseline_tuned.joblib
+      RAGGUARD_THRESHOLD: "0.5"
+    volumes:
+      - ./artifacts:/app/artifacts:ro

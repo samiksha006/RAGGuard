@@ -1,0 +1,32 @@
+experiments:
+  - id: text_tfidf_logreg
+    type: text_baseline
+    features: [question, context, answer]
+    classifier: LogisticRegression
+  - id: hidden_state_logreg
+    type: hidden_state_probe
+    segments: [question, context, answer]
+    layers: [-1, -2, -4, -6]
+    classifier: LogisticRegression
+  - id: hidden_state_linear_svm
+    type: hidden_state_probe
+    segments: [question, context, answer]
+    layers: [-1, -2, -4, -6]
+    classifier: LinearSVM
+  - id: hidden_state_random_forest
+    type: hidden_state_probe
+    segments: [question, context, answer]
+    layers: [-1, -2, -4, -6]
+    classifier: RandomForest
+  - id: source_holdout
+    split: official_train_validation_and_official_test
+    compare: [text_tfidf_logreg, hidden_state_logreg]
+  - id: calibration_efficiency
+    metrics: [brier_score, reliability_diagram, train_seconds, latency_ms_per_sample]
+probe_training:
+  seed: 42
+  validation_size: 0.2
+  layers: [-1, -2, -4, -6]
+  models: [logistic_regression, linear_svm]
+  output_dir: artifacts/probes/ragtruth
+  baseline_metrics: artifacts/text_baseline/metrics_official_test.json

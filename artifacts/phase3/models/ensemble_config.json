@@ -1,0 +1,8 @@
+{
+  "model_type": "probability_weighted_linear_ensemble",
+  "alpha": 0.4,
+  "selected_threshold": 0.42999999999999994,
+  "validation_f1": 0.7115847370230319,
+  "tfidf_model_path": "artifacts\\text_baseline\\model.joblib",
+  "probe_model_path": "artifacts\\probes\\combined_features\\models\\question_layer_5_logistic_regression.joblib"
+}

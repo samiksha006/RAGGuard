@@ -1,0 +1,11 @@
+{
+  "evaluation_split": "official_test",
+  "data_file": "data/processed/ragtruth/test.csv",
+  "predictions_file": "artifacts/text_baseline/predictions_official_test.csv",
+  "n_rows": 2700,
+  "class_counts": {
+    "0": 1757,
+    "1": 943
+  },
+  "pca_visualization": "omitted for official test to avoid fitting a projection on test data"
+}

@@ -1,0 +1,601 @@
+question,context,response,label,source_id
+Question 0: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_0
+Question 1: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_1
+Question 2: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_2
+Question 3: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_3
+Question 4: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_4
+Question 5: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_5
+Question 6: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_6
+Question 7: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_7
+Question 8: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_8
+Question 9: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_9
+Question 10: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_10
+Question 11: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_11
+Question 12: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_12
+Question 13: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_13
+Question 14: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_14
+Question 15: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_15
+Question 16: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_16
+Question 17: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_17
+Question 18: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_18
+Question 19: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_19
+Question 20: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_20
+Question 21: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_21
+Question 22: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_22
+Question 23: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_23
+Question 24: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_24
+Question 25: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_25
+Question 26: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_26
+Question 27: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_27
+Question 28: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_28
+Question 29: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_29
+Question 30: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_30
+Question 31: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_31
+Question 32: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_32
+Question 33: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_33
+Question 34: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_34
+Question 35: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_35
+Question 36: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_36
+Question 37: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_37
+Question 38: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_38
+Question 39: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_39
+Question 40: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_40
+Question 41: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_41
+Question 42: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_42
+Question 43: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_43
+Question 44: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_44
+Question 45: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_45
+Question 46: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_46
+Question 47: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_47
+Question 48: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_48
+Question 49: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_49
+Question 50: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_50
+Question 51: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_51
+Question 52: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_52
+Question 53: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_53
+Question 54: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_54
+Question 55: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_55
+Question 56: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_56
+Question 57: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_57
+Question 58: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_58
+Question 59: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_59
+Question 60: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_60
+Question 61: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_61
+Question 62: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_62
+Question 63: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_63
+Question 64: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_64
+Question 65: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_65
+Question 66: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_66
+Question 67: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_67
+Question 68: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_68
+Question 69: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_69
+Question 70: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_70
+Question 71: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_71
+Question 72: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_72
+Question 73: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_73
+Question 74: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_74
+Question 75: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_75
+Question 76: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_76
+Question 77: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_77
+Question 78: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_78
+Question 79: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_79
+Question 80: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_80
+Question 81: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_81
+Question 82: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_82
+Question 83: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_83
+Question 84: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_84
+Question 85: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_85
+Question 86: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_86
+Question 87: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_87
+Question 88: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_88
+Question 89: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_89
+Question 90: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_90
+Question 91: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_91
+Question 92: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_92
+Question 93: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_93
+Question 94: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_94
+Question 95: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_95
+Question 96: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_96
+Question 97: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_97
+Question 98: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_98
+Question 99: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_99
+Question 100: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_100
+Question 101: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_101
+Question 102: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_102
+Question 103: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_103
+Question 104: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_104
+Question 105: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_105
+Question 106: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_106
+Question 107: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_107
+Question 108: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_108
+Question 109: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_109
+Question 110: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_110
+Question 111: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_111
+Question 112: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_112
+Question 113: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_113
+Question 114: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_114
+Question 115: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_115
+Question 116: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_116
+Question 117: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_117
+Question 118: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_118
+Question 119: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_119
+Question 120: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_0
+Question 121: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_1
+Question 122: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_2
+Question 123: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_3
+Question 124: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_4
+Question 125: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_5
+Question 126: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_6
+Question 127: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_7
+Question 128: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_8
+Question 129: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_9
+Question 130: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_10
+Question 131: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_11
+Question 132: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_12
+Question 133: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_13
+Question 134: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_14
+Question 135: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_15
+Question 136: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_16
+Question 137: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_17
+Question 138: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_18
+Question 139: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_19
+Question 140: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_20
+Question 141: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_21
+Question 142: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_22
+Question 143: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_23
+Question 144: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_24
+Question 145: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_25
+Question 146: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_26
+Question 147: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_27
+Question 148: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_28
+Question 149: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_29
+Question 150: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_30
+Question 151: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_31
+Question 152: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_32
+Question 153: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_33
+Question 154: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_34
+Question 155: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_35
+Question 156: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_36
+Question 157: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_37
+Question 158: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_38
+Question 159: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_39
+Question 160: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_40
+Question 161: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_41
+Question 162: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_42
+Question 163: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_43
+Question 164: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_44
+Question 165: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_45
+Question 166: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_46
+Question 167: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_47
+Question 168: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_48
+Question 169: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_49
+Question 170: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_50
+Question 171: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_51
+Question 172: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_52
+Question 173: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_53
+Question 174: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_54
+Question 175: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_55
+Question 176: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_56
+Question 177: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_57
+Question 178: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_58
+Question 179: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_59
+Question 180: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_60
+Question 181: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_61
+Question 182: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_62
+Question 183: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_63
+Question 184: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_64
+Question 185: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_65
+Question 186: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_66
+Question 187: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_67
+Question 188: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_68
+Question 189: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_69
+Question 190: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_70
+Question 191: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_71
+Question 192: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_72
+Question 193: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_73
+Question 194: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_74
+Question 195: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_75
+Question 196: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_76
+Question 197: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_77
+Question 198: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_78
+Question 199: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_79
+Question 200: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_80
+Question 201: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_81
+Question 202: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_82
+Question 203: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_83
+Question 204: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_84
+Question 205: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_85
+Question 206: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_86
+Question 207: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_87
+Question 208: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_88
+Question 209: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_89
+Question 210: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_90
+Question 211: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_91
+Question 212: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_92
+Question 213: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_93
+Question 214: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_94
+Question 215: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_95
+Question 216: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_96
+Question 217: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_97
+Question 218: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_98
+Question 219: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_99
+Question 220: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_100
+Question 221: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_101
+Question 222: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_102
+Question 223: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_103
+Question 224: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_104
+Question 225: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_105
+Question 226: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_106
+Question 227: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_107
+Question 228: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_108
+Question 229: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_109
+Question 230: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_110
+Question 231: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_111
+Question 232: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_112
+Question 233: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_113
+Question 234: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_114
+Question 235: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_115
+Question 236: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_116
+Question 237: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_117
+Question 238: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_118
+Question 239: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_119
+Question 240: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_0
+Question 241: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_1
+Question 242: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_2
+Question 243: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_3
+Question 244: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_4
+Question 245: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_5
+Question 246: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_6
+Question 247: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_7
+Question 248: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_8
+Question 249: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_9
+Question 250: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_10
+Question 251: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_11
+Question 252: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_12
+Question 253: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_13
+Question 254: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_14
+Question 255: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_15
+Question 256: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_16
+Question 257: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_17
+Question 258: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_18
+Question 259: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_19
+Question 260: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_20
+Question 261: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_21
+Question 262: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_22
+Question 263: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_23
+Question 264: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_24
+Question 265: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_25
+Question 266: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_26
+Question 267: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_27
+Question 268: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_28
+Question 269: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_29
+Question 270: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_30
+Question 271: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_31
+Question 272: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_32
+Question 273: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_33
+Question 274: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_34
+Question 275: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_35
+Question 276: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_36
+Question 277: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_37
+Question 278: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_38
+Question 279: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_39
+Question 280: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_40
+Question 281: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_41
+Question 282: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_42
+Question 283: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_43
+Question 284: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_44
+Question 285: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_45
+Question 286: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_46
+Question 287: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_47
+Question 288: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_48
+Question 289: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_49
+Question 290: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_50
+Question 291: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_51
+Question 292: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_52
+Question 293: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_53
+Question 294: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_54
+Question 295: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_55
+Question 296: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_56
+Question 297: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_57
+Question 298: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_58
+Question 299: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_59
+Question 300: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_60
+Question 301: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_61
+Question 302: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_62
+Question 303: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_63
+Question 304: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_64
+Question 305: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_65
+Question 306: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_66
+Question 307: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_67
+Question 308: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_68
+Question 309: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_69
+Question 310: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_70
+Question 311: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_71
+Question 312: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_72
+Question 313: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_73
+Question 314: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_74
+Question 315: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_75
+Question 316: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_76
+Question 317: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_77
+Question 318: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_78
+Question 319: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_79
+Question 320: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_80
+Question 321: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_81
+Question 322: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_82
+Question 323: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_83
+Question 324: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_84
+Question 325: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_85
+Question 326: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_86
+Question 327: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_87
+Question 328: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_88
+Question 329: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_89
+Question 330: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_90
+Question 331: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_91
+Question 332: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_92
+Question 333: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_93
+Question 334: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_94
+Question 335: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_95
+Question 336: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_96
+Question 337: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_97
+Question 338: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_98
+Question 339: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_99
+Question 340: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_100
+Question 341: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_101
+Question 342: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_102
+Question 343: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_103
+Question 344: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_104
+Question 345: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_105
+Question 346: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_106
+Question 347: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_107
+Question 348: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_108
+Question 349: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_109
+Question 350: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_110
+Question 351: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_111
+Question 352: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_112
+Question 353: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_113
+Question 354: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_114
+Question 355: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_115
+Question 356: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_116
+Question 357: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_117
+Question 358: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_118
+Question 359: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_119
+Question 360: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_0
+Question 361: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_1
+Question 362: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_2
+Question 363: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_3
+Question 364: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_4
+Question 365: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_5
+Question 366: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_6
+Question 367: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_7
+Question 368: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_8
+Question 369: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_9
+Question 370: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_10
+Question 371: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_11
+Question 372: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_12
+Question 373: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_13
+Question 374: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_14
+Question 375: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_15
+Question 376: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_16
+Question 377: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_17
+Question 378: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_18
+Question 379: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_19
+Question 380: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_20
+Question 381: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_21
+Question 382: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_22
+Question 383: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_23
+Question 384: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_24
+Question 385: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_25
+Question 386: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_26
+Question 387: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_27
+Question 388: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_28
+Question 389: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_29
+Question 390: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_30
+Question 391: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_31
+Question 392: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_32
+Question 393: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_33
+Question 394: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_34
+Question 395: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_35
+Question 396: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_36
+Question 397: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_37
+Question 398: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_38
+Question 399: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_39
+Question 400: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_40
+Question 401: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_41
+Question 402: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_42
+Question 403: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_43
+Question 404: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_44
+Question 405: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_45
+Question 406: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_46
+Question 407: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_47
+Question 408: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_48
+Question 409: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_49
+Question 410: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_50
+Question 411: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_51
+Question 412: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_52
+Question 413: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_53
+Question 414: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_54
+Question 415: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_55
+Question 416: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_56
+Question 417: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_57
+Question 418: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_58
+Question 419: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_59
+Question 420: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_60
+Question 421: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_61
+Question 422: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_62
+Question 423: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_63
+Question 424: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_64
+Question 425: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_65
+Question 426: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_66
+Question 427: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_67
+Question 428: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_68
+Question 429: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_69
+Question 430: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_70
+Question 431: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_71
+Question 432: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_72
+Question 433: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_73
+Question 434: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_74
+Question 435: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_75
+Question 436: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_76
+Question 437: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_77
+Question 438: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_78
+Question 439: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_79
+Question 440: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_80
+Question 441: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_81
+Question 442: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_82
+Question 443: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_83
+Question 444: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_84
+Question 445: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_85
+Question 446: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_86
+Question 447: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_87
+Question 448: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_88
+Question 449: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_89
+Question 450: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_90
+Question 451: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_91
+Question 452: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_92
+Question 453: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_93
+Question 454: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_94
+Question 455: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_95
+Question 456: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_96
+Question 457: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_97
+Question 458: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_98
+Question 459: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_99
+Question 460: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_100
+Question 461: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_101
+Question 462: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_102
+Question 463: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_103
+Question 464: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_104
+Question 465: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_105
+Question 466: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_106
+Question 467: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_107
+Question 468: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_108
+Question 469: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_109
+Question 470: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_110
+Question 471: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_111
+Question 472: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_112
+Question 473: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_113
+Question 474: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_114
+Question 475: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_115
+Question 476: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_116
+Question 477: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_117
+Question 478: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_118
+Question 479: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_119
+Question 480: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_0
+Question 481: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_1
+Question 482: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_2
+Question 483: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_3
+Question 484: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_4
+Question 485: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_5
+Question 486: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_6
+Question 487: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_7
+Question 488: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_8
+Question 489: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_9
+Question 490: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_10
+Question 491: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_11
+Question 492: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_12
+Question 493: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_13
+Question 494: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_14
+Question 495: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_15
+Question 496: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_16
+Question 497: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_17
+Question 498: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_18
+Question 499: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_19
+Question 500: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_20
+Question 501: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_21
+Question 502: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_22
+Question 503: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_23
+Question 504: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_24
+Question 505: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_25
+Question 506: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_26
+Question 507: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_27
+Question 508: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_28
+Question 509: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_29
+Question 510: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_30
+Question 511: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_31
+Question 512: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_32
+Question 513: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_33
+Question 514: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_34
+Question 515: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_35
+Question 516: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_36
+Question 517: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_37
+Question 518: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_38
+Question 519: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_39
+Question 520: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_40
+Question 521: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_41
+Question 522: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_42
+Question 523: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_43
+Question 524: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_44
+Question 525: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_45
+Question 526: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_46
+Question 527: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_47
+Question 528: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_48
+Question 529: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_49
+Question 530: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_50
+Question 531: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_51
+Question 532: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_52
+Question 533: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_53
+Question 534: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_54
+Question 535: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_55
+Question 536: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_56
+Question 537: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_57
+Question 538: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_58
+Question 539: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_59
+Question 540: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_60
+Question 541: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_61
+Question 542: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_62
+Question 543: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_63
+Question 544: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_64
+Question 545: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_65
+Question 546: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_66
+Question 547: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_67
+Question 548: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_68
+Question 549: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_69
+Question 550: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_70
+Question 551: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_71
+Question 552: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_72
+Question 553: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_73
+Question 554: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_74
+Question 555: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_75
+Question 556: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_76
+Question 557: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_77
+Question 558: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_78
+Question 559: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_79
+Question 560: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_80
+Question 561: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_81
+Question 562: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_82
+Question 563: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_83
+Question 564: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_84
+Question 565: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_85
+Question 566: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_86
+Question 567: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_87
+Question 568: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_88
+Question 569: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_89
+Question 570: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_90
+Question 571: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_91
+Question 572: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_92
+Question 573: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_93
+Question 574: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_94
+Question 575: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_95
+Question 576: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_96
+Question 577: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_97
+Question 578: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_98
+Question 579: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_99
+Question 580: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_100
+Question 581: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_101
+Question 582: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_102
+Question 583: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_103
+Question 584: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_104
+Question 585: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_105
+Question 586: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_106
+Question 587: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_107
+Question 588: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_108
+Question 589: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_109
+Question 590: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_110
+Question 591: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_111
+Question 592: state the relevant fact,The capital of France is Paris.,Paris is the capital of France.,0,source_112
+Question 593: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,Water freezes at 40°C under standard pressure.,1,source_113
+Question 594: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_114
+Question 595: state the relevant fact,The capital of France is Paris.,The capital of France is Lyon.,1,source_115
+Question 596: state the relevant fact,Water freezes at 0 degrees Celsius under standard pressure.,"At standard pressure, water freezes at 0°C.",0,source_116
+Question 597: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_117
+Question 598: state the relevant fact,The Earth orbits the Sun.,Earth revolves around the Sun.,0,source_118
+Question 599: state the relevant fact,The Earth orbits the Sun.,The Sun orbits the Earth.,1,source_119

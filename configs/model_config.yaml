@@ -1,0 +1,25 @@
+project_name: RAGGuard
+seed: 42
+# Change aliases after inspecting the exact RAGTruth export you download.
+columns:
+  question: [question, query, prompt]
+  context: [context, retrieved_context, evidence, documents]
+  answer: [response, answer, generated_response, output, text]
+  label: [label, hallucination, is_hallucinated, hallucination_label]
+  source_id: [source_id, source, doc_id, document_id]
+label:
+  # accepted binary values after normalization
+  positive_values: [1, true, hallucinated, hallucination, yes, positive]
+  negative_values: [0, false, grounded, non_hallucinated, no, negative]
+features:
+  model_name: distilbert/distilbert-base-uncased
+  max_length: 384
+  batch_size: 4
+  # Hidden-state tuple indices; negative indices resolve from its end.
+  layers: [-1, -2, -4, -6]
+  segments: [question, context, answer]
+training:
+  test_size: 0.2
+  validation_size: 0.2
+  random_state: 42
+  models: [logistic_regression, linear_svm]

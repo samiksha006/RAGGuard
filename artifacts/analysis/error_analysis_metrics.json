@@ -1,0 +1,288 @@
+{
+  "metadata": {
+    "evaluation_split": "official_test",
+    "dataset": "RAGTruth",
+    "probe_feature_segment": "question_answer",
+    "probe_layer": 5,
+    "probe_classifier": "logistic_regression",
+    "selected_threshold": 0.3599999999999999,
+    "baseline_threshold": 0.4549999999999999,
+    "total_test_samples": 2700,
+    "misclassified_samples": 1015
+  },
+  "probe_metrics": {
+    "class_convention": {
+      "0": "Grounded (negative)",
+      "1": "Hallucinated (positive)"
+    },
+    "confusion_matrix": {
+      "tn": 947,
+      "fp": 810,
+      "fn": 205,
+      "tp": 738,
+      "matrix_2x2": [
+        [
+          947,
+          810
+        ],
+        [
+          205,
+          738
+        ]
+      ]
+    },
+    "classification_metrics": {
+      "accuracy": 0.6240740740740741,
+      "precision": 0.47674418604651164,
+      "recall": 0.782608695652174,
+      "specificity": 0.5389869095048377,
+      "f1": 0.5925331192292251,
+      "balanced_accuracy": 0.6607978025785058,
+      "false_positive_rate": 0.4610130904951622,
+      "false_negative_rate": 0.21739130434782608
+    },
+    "class_support": {
+      "grounded_actual": 1757,
+      "hallucinated_actual": 943,
+      "total_samples": 2700
+    },
+    "predicted_counts": {
+      "grounded_predicted": 1152,
+      "hallucinated_predicted": 1548
+    },
+    "ranking_metrics": {
+      "roc_auc": 0.7358941751551588,
+      "pr_auc": 0.5411916584975849,
+      "brier_score": 0.23556980029213265
+    }
+  },
+  "baseline_metrics": {
+    "model": "TF-IDF word+char / LogisticRegression",
+    "dataset": "RAGTruth",
+    "test_split": "official_test",
+    "threshold_selected_on": "training_validation",
+    "selected_threshold": 0.4549999999999999,
+    "seed": 42,
+    "n_train": 12072,
+    "n_validation": 3018,
+    "n_test": 2700,
+    "validation_fraction_of_training": 0.2,
+    "split_strategy": "stratified_train_validation",
+    "train_label_counts": {
+      "0": 6695,
+      "1": 5377
+    },
+    "validation_label_counts": {
+      "0": 1674,
+      "1": 1344
+    },
+    "test_label_counts": {
+      "0": 1757,
+      "1": 943
+    },
+    "training_time_seconds": 244.8139411999946,
+    "test_inference_latency_ms_per_sample": 17.68215929629622,
+    "accuracy": 0.7403703703703703,
+    "precision": 0.6132958801498127,
+    "recall": 0.694591728525981,
+    "f1": 0.6514172053704624,
+    "pr_auc": 0.7287232777623053,
+    "roc_auc": 0.7974223391240371,
+    "brier_score": 0.17445876380887326,
+    "n_training_rows": 15090
+  },
+  "subgroup_analysis": {
+    "by_task_type": {
+      "Data2txt": {
+        "total_samples": 900,
+        "grounded_samples": 321,
+        "hallucinated_samples": 579,
+        "correct_samples": 648,
+        "false_positives": 218,
+        "false_negatives": 34,
+        "total_errors": 252,
+        "error_rate": 0.28,
+        "fpr": 0.6791277258566978,
+        "fnr": 0.05872193436960276
+      },
+      "QA": {
+        "total_samples": 900,
+        "grounded_samples": 740,
+        "hallucinated_samples": 160,
+        "correct_samples": 527,
+        "false_positives": 302,
+        "false_negatives": 71,
+        "total_errors": 373,
+        "error_rate": 0.41444444444444445,
+        "fpr": 0.4081081081081081,
+        "fnr": 0.44375
+      },
+      "Summary": {
+        "total_samples": 900,
+        "grounded_samples": 696,
+        "hallucinated_samples": 204,
+        "correct_samples": 510,
+        "false_positives": 290,
+        "false_negatives": 100,
+        "total_errors": 390,
+        "error_rate": 0.43333333333333335,
+        "fpr": 0.4166666666666667,
+        "fnr": 0.49019607843137253
+      }
+    },
+    "by_generator_model": {
+      "gpt-3.5-turbo-0613": {
+        "total_samples": 450,
+        "grounded_samples": 404,
+        "hallucinated_samples": 46,
+        "correct_samples": 267,
+        "false_positives": 161,
+        "false_negatives": 22,
+        "total_errors": 183,
+        "error_rate": 0.4066666666666667,
+        "fpr": 0.39851485148514854,
+        "fnr": 0.4782608695652174
+      },
+      "gpt-4-0613": {
+        "total_samples": 450,
+        "grounded_samples": 408,
+        "hallucinated_samples": 42,
+        "correct_samples": 270,
+        "false_positives": 162,
+        "false_negatives": 18,
+        "total_errors": 180,
+        "error_rate": 0.4,
+        "fpr": 0.39705882352941174,
+        "fnr": 0.42857142857142855
+      },
+      "llama-2-13b-chat": {
+        "total_samples": 450,
+        "grounded_samples": 243,
+        "hallucinated_samples": 207,
+        "correct_samples": 294,
+        "false_positives": 129,
+        "false_negatives": 27,
+        "total_errors": 156,
+        "error_rate": 0.3466666666666667,
+        "fpr": 0.5308641975308642,
+        "fnr": 0.13043478260869565
+      },
+      "llama-2-70b-chat": {
+        "total_samples": 450,
+        "grounded_samples": 279,
+        "hallucinated_samples": 171,
+        "correct_samples": 269,
+        "false_positives": 142,
+        "false_negatives": 39,
+        "total_errors": 181,
+        "error_rate": 0.4022222222222222,
+        "fpr": 0.5089605734767025,
+        "fnr": 0.22807017543859648
+      },
+      "llama-2-7b-chat": {
+        "total_samples": 450,
+        "grounded_samples": 224,
+        "hallucinated_samples": 226,
+        "correct_samples": 273,
+        "false_positives": 134,
+        "false_negatives": 43,
+        "total_errors": 177,
+        "error_rate": 0.3933333333333333,
+        "fpr": 0.5982142857142857,
+        "fnr": 0.1902654867256637
+      },
+      "mistral-7B-instruct": {
+        "total_samples": 450,
+        "grounded_samples": 199,
+        "hallucinated_samples": 251,
+        "correct_samples": 312,
+        "false_positives": 82,
+        "false_negatives": 56,
+        "total_errors": 138,
+        "error_rate": 0.30666666666666664,
+        "fpr": 0.4120603015075377,
+        "fnr": 0.22310756972111553
+      }
+    },
+    "text_length_by_category": {
+      "question": {
+        "True Negative": {
+          "count": 947,
+          "mean_chars": 68.24181626187962,
+          "median_chars": 45.0,
+          "std_chars": 79.60441056812462
+        },
+        "False Positive": {
+          "count": 810,
+          "mean_chars": 110.54691358024691,
+          "median_chars": 46.0,
+          "std_chars": 111.81910120113139
+        },
+        "False Negative": {
+          "count": 205,
+          "mean_chars": 83.93658536585366,
+          "median_chars": 46.0,
+          "std_chars": 94.29875801299252
+        },
+        "True Positive": {
+          "count": 738,
+          "mean_chars": 228.3780487804878,
+          "median_chars": 294.0,
+          "std_chars": 110.46919500614469
+        }
+      },
+      "context": {
+        "True Negative": {
+          "count": 947,
+          "mean_chars": 2211.1235480464625,
+          "median_chars": 1850.0,
+          "std_chars": 1452.7772755709339
+        },
+        "False Positive": {
+          "count": 810,
+          "mean_chars": 2344.1753086419753,
+          "median_chars": 1895.5,
+          "std_chars": 1520.8014513799533
+        },
+        "False Negative": {
+          "count": 205,
+          "mean_chars": 2513.8243902439026,
+          "median_chars": 1945.0,
+          "std_chars": 1667.0106120762248
+        },
+        "True Positive": {
+          "count": 738,
+          "mean_chars": 2539.913279132791,
+          "median_chars": 2207.0,
+          "std_chars": 1241.058709224513
+        }
+      },
+      "answer": {
+        "True Negative": {
+          "count": 947,
+          "mean_chars": 662.4889123548046,
+          "median_chars": 605.0,
+          "std_chars": 341.06460708912334
+        },
+        "False Positive": {
+          "count": 810,
+          "mean_chars": 761.3679012345679,
+          "median_chars": 713.0,
+          "std_chars": 335.23511732521337
+        },
+        "False Negative": {
+          "count": 205,
+          "mean_chars": 799.6536585365853,
+          "median_chars": 721.0,
+          "std_chars": 352.5097857754191
+        },
+        "True Positive": {
+          "count": 738,
+          "mean_chars": 930.7533875338753,
+          "median_chars": 879.0,
+          "std_chars": 309.7044223041553
+        }
+      }
+    }
+  }
+}

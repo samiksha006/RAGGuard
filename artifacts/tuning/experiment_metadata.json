@@ -1,0 +1,79 @@
+{
+  "experiment_name": "word_char_tfidf_logistic_regression",
+  "input_path": "data\\processed\\ragtruth\\train.csv",
+  "random_state": 42,
+  "iterations_requested": 6,
+  "iterations_completed": 18,
+  "cross_validation_folds": 3,
+  "selection_metric": "f1",
+  "training_rows": 12072,
+  "validation_rows": 3018,
+  "training_class_counts": {
+    "0": 6695,
+    "1": 5377
+  },
+  "validation_class_counts": {
+    "0": 1674,
+    "1": 1344
+  },
+  "best_cv_f1": 0.6874867239271553,
+  "best_parameters": {
+    "clf__C": 6.79657809075816,
+    "features__char__max_features": 15000,
+    "features__char__ngram_range": [
+      3,
+      5
+    ],
+    "features__char__sublinear_tf": true,
+    "features__word__max_features": 30000,
+    "features__word__ngram_range": [
+      1,
+      2
+    ],
+    "features__word__sublinear_tf": true
+  },
+  "validation_metrics": {
+    "accuracy": 0.7412193505632869,
+    "precision": 0.7167051578137028,
+    "recall": 0.6927083333333334,
+    "f1": 0.7045024593265229,
+    "pr_auc": 0.8010071587759917,
+    "brier_score": 0.18162044685364956,
+    "roc_auc": 0.7997058478409285
+  },
+  "runtime_seconds": 1899.07,
+  "feature_configuration": {
+    "word_max_features": [
+      20000,
+      30000
+    ],
+    "character_max_features": [
+      10000,
+      15000
+    ],
+    "word_ngrams": [
+      "(1, 1)",
+      "(1, 2)"
+    ],
+    "character_ngrams": [
+      "(3, 5)",
+      "(2, 5)"
+    ],
+    "min_df": 2,
+    "dtype": "float32"
+  },
+  "artifacts": {
+    "model": "artifacts\\tuning\\text_baseline_tuned.joblib",
+    "search_history": "artifacts\\tuning\\text_search.csv",
+    "metadata": "artifacts\\tuning\\experiment_metadata.json",
+    "validation_metrics": "artifacts\\tuning\\validation_metrics.json"
+  },
+  "notes": [
+    "Word and character TF-IDF are fitted inside each CV fold.",
+    "Hyperparameters are selected using training-fold CV F1.",
+    "Internal validation metrics are reported separately.",
+    "The official test set is not loaded by this script.",
+    "No classification threshold is selected by this script.",
+    "The saved estimator is refitted on the internal training split."
+  ]
+}
